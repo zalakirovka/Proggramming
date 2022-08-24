@@ -1,0 +1,77 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
+
+body{
+	font-family: "Open Sans";	
+}
+
+.header{
+	background:url(/img/header-bg.jpg) no-repeat center top / cover;
+	color: #FFFFFF;
+	padding-bottom: 322px;
+}
+.img{
+	margin-right: 69px;
+}
+.nav{
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	padding-top: 57px;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li{
+	margin-right: 40px;
+}
+
+.nav a{
+	text-transform:uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.tel{
+	font-size: 17px;
+	margin-left: auto;
+}
+
+.header__text{
+
+	align-items: left;
+	margin-top: 216px;
+	margin-left: 213px;
+}
+.header__text p{
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.header__text h1{
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 151px;
+}
+.btn{
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+	text-transform:uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
